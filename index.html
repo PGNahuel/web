@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css" />
-
+  <link rel="icon" type="image/x-icon" href="/resources/favico.ico">
 <style>
     svg[id^="mermaid-"] { 
       width: 200%;  
@@ -20,19 +19,18 @@
 </style>
 </head>
 <body>
-  <div id="app"></div>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css" />
-  <script src="//cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js"></script>
-  <!-- Docsify v4 -->
+  <div id="app">... Cargando ...</div>
+  <link rel="stylesheet" href="/css/dark.css" />
+  <script src="/js/mermaid.min.js"></script>
+
+
   <script>
-    // 2. Add the two lines below before declaring the window.$docsify object:
     var num = 0;
     mermaid.initialize({ startOnLoad: false });
 
-    // 3. Add the "markdown" option to window.$docsify in addition to the other config
     window.$docsify = {
       name: 'Nahuel Gomez',
-      repo: '',
+      repo: 'pgnahuel',
       markdown: {
         renderer: {
           code: function (code, lang) {
@@ -48,17 +46,16 @@
         },
       },
       loadSidebar: true,
-      subMaxLevel: 3,
+      subMaxLevel: 1,
       alias: {
         '/_sidebar.md': '/_sidebar.md'
       },
       mermaidConfig: {
           querySelector: ".mermaid"
-        }
+      }
     };
   </script>
-  <!-- ...other imports -->
   
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="/js/docsify.js"></script>
 </body>
 </html>

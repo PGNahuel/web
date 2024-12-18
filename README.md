@@ -10,6 +10,6 @@ Esta web nace como un espacio personal para difundir buenas prácticas de progra
 
 Mi objetivo es contribuir al crecimiento de otros programadores, desde quienes están comenzando hasta quienes buscan llevar su nivel de seniority al siguiente escalón, compartiendo ideas y reflexiones útiles que puedas aplicar en tus propios proyectos.
 
-Mi currículum lo podes ver en este link. 
+Mi currículum lo podes ver en este [link](https://nahuelgomez.ar/cv-nahuelgomez.pdf). 
 
-Cualquier comentario, duda o tema de interés que quieras que ponga en esta página podes hacermelo en este formulario o escribirme a pgnahuel@gmail.com
+Cualquier comentario, duda o tema de interés que quieras que ponga en esta página podes hacermelo en [este formulario](https://forms.gle/qLb7BJSPXqTEDVEY7) o escribirme a pgnahuel@gmail.com
