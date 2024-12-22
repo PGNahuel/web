@@ -367,9 +367,9 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
 
 .markdown-section {
 	margin: 0 auto;
-	max-width: 80%;
-	padding: 30px 15px 40px;
-	position: relative
+	max-width: 90%;
+	position: relative;
+	padding: 30px 0px 30px 0px;
 }
 
 .markdown-section>* {
