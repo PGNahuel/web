@@ -8,10 +8,12 @@ Cuando digo confía en lo que se supone que debe hacer el sistema es traer a nos
 
 Suponete que tenes que hacer un reporte dado una base de datos ¿Te importa cómo se llenó esa base de datos? Para nada, te importan los datos; Tenes que cambiar de host a tu aplicación ¿Por qué deberías modificar tu código?; queres envíar emails por gmail o el mismo mensaje por sms ¿Te importa cómo hace Google o un proveedor de sms? Para nada. En tus programas tiene que ser igual.
 
+Todo se resume en:
+
 ```mermaid
-sequenceDiagram
-    actor A
-    A->>Sistema: Petición
-    Sistema->>Sistema:Procesamiento
-    Sistema->>A: Resultado
+flowchart LR
+    Entrada --> Procesamiento 
+    --> Resultado
 ```
+
+Y es por eso que tenemos que tener...
